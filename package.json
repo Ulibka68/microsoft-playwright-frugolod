@@ -1,0 +1,27 @@
+{
+  "name": "microsoft-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "npx playwright codegen https://frugolod.ru/",
+    "frugolod.js": "node src/frugolod.js",
+    "fru2": "tsc src/fru2.ts &&  node src/fru2.js",
+    "lint": "npm run eslint src/*.ts --fix",
+    "lint2": "npx eslint --ext .ts --fix ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "playwright": "^1.8.1",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
