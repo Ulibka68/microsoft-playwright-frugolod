@@ -39,8 +39,46 @@ exports.__esModule = true;
 exports.mainFunc = void 0;
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 var chromium = require("playwright").chromium;
+function mDelay(msDelay) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            return [2 /*return*/, new Promise(function (resolve) {
+                    setTimeout(resolve, msDelay);
+                })];
+        });
+    });
+}
+function parceOnePageItem(page, newUrl) {
+    return __awaiter(this, void 0, void 0, function () {
+        var parceResultItem;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, page.goto(newUrl)];
+                case 1:
+                    _a.sent();
+                    mDelay(1500);
+                    return [4 /*yield*/, page.$eval("div.t-container", function (div) {
+                            var resultSet = {};
+                            var tempImgs = new Set();
+                            var a = div.querySelectorAll("div.t-store__prod-popup__slider div.t-slds__imgwrapper ");
+                            a.forEach(function (val) {
+                                tempImgs.add(val.dataset.imgZoomUrl);
+                            });
+                            console.log(tempImgs);
+                            resultSet.imgs = Array.from(tempImgs);
+                            resultSet.prodName = div.querySelector(".js-store-prod-name").textContent;
+                            resultSet.prodDescription = div.querySelector(".js-store-prod-text").innerHTML;
+                            return resultSet;
+                        })];
+                case 2:
+                    parceResultItem = _a.sent();
+                    return [2 /*return*/, parceResultItem];
+            }
+        });
+    });
+}
 var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var browser, context, page, parceResultItem;
+    var browser, context, page, text, i, parceResult, oneProdArray, i, oneGood;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, chromium.launch({
@@ -54,138 +92,83 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                 return [4 /*yield*/, context.newPage()];
             case 3:
                 page = _a.sent();
-                /*
-                await page.goto("https://frugolod.ru/preprice");
-              
-                console.log("start query");
-              
-                const parceResult = await page.$$eval(
-                  "div.js-product",
-                  (divs: Array<HTMLDivElement>) => {
-                    const funcInner = (div: HTMLDivElement) => {
-                      const resultSet: any = {};
-              
-                      resultSet.productUid = div.dataset.productUid;
-                      resultSet.productUrl = div.dataset.productUrl;
-                      resultSet.productImg = div.dataset.productImg;
-              
-                      // const img: HTMLDivElement = div.querySelector(".js-product-img");
-                      // console.log(img.dataset["original"]);
-              
-                      const newD: HTMLDivElement = div.querySelector(
-                        ".t-store__card__mark-wrapper .t-store__card__mark"
-                      );
-              
-                      resultSet.New = !!newD?.textContent; // либо New либо пусто
-              
-                      const prodName: HTMLDivElement = div.querySelector(
-                        ".t-store__card__textwrapper .js-store-prod-name"
-                      );
-                      resultSet.prodName = prodName.textContent;
-              
-                      const prodDescr: HTMLDivElement = div.querySelector(
-                        ".js-store-prod-descr"
-                      );
-                      resultSet.prodDescr = (prodDescr.innerHTML as string).trim();
-              
-                      const prodPrice: HTMLDivElement = div.querySelector(
-                        ".js-product-price"
-                      );
-                      resultSet.prodPrice = parseInt(prodPrice.textContent);
-              
-                      const prodSoldOut: HTMLDivElement = div.querySelector(
-                        ".js-store-prod-sold-out"
-                      );
-                      resultSet.prodSoldOut = !!prodSoldOut;
-              
-                      return resultSet;
-                    };
-              
-                    console.log("Всего найдено : ", divs.length);
-                    // divs.forEach((div) => {
-                    const res = funcInner(divs[0]);
-                    return res;
-                  }
-                );
-                console.log(parceResult);
-                */
-                // await page.goto(parceResult.productUrl);
-                return [4 /*yield*/, page.goto("https://frugolod.ru/testhtml/tproduct/227213205-340652234845-tomati")];
+                return [4 /*yield*/, page.goto("https://frugolod.ru/preprice")];
             case 4:
-                /*
-                await page.goto("https://frugolod.ru/preprice");
-              
-                console.log("start query");
-              
-                const parceResult = await page.$$eval(
-                  "div.js-product",
-                  (divs: Array<HTMLDivElement>) => {
-                    const funcInner = (div: HTMLDivElement) => {
-                      const resultSet: any = {};
-              
-                      resultSet.productUid = div.dataset.productUid;
-                      resultSet.productUrl = div.dataset.productUrl;
-                      resultSet.productImg = div.dataset.productImg;
-              
-                      // const img: HTMLDivElement = div.querySelector(".js-product-img");
-                      // console.log(img.dataset["original"]);
-              
-                      const newD: HTMLDivElement = div.querySelector(
-                        ".t-store__card__mark-wrapper .t-store__card__mark"
-                      );
-              
-                      resultSet.New = !!newD?.textContent; // либо New либо пусто
-              
-                      const prodName: HTMLDivElement = div.querySelector(
-                        ".t-store__card__textwrapper .js-store-prod-name"
-                      );
-                      resultSet.prodName = prodName.textContent;
-              
-                      const prodDescr: HTMLDivElement = div.querySelector(
-                        ".js-store-prod-descr"
-                      );
-                      resultSet.prodDescr = (prodDescr.innerHTML as string).trim();
-              
-                      const prodPrice: HTMLDivElement = div.querySelector(
-                        ".js-product-price"
-                      );
-                      resultSet.prodPrice = parseInt(prodPrice.textContent);
-              
-                      const prodSoldOut: HTMLDivElement = div.querySelector(
-                        ".js-store-prod-sold-out"
-                      );
-                      resultSet.prodSoldOut = !!prodSoldOut;
-              
-                      return resultSet;
-                    };
-              
-                    console.log("Всего найдено : ", divs.length);
-                    // divs.forEach((div) => {
-                    const res = funcInner(divs[0]);
-                    return res;
-                  }
-                );
-                console.log(parceResult);
-                */
-                // await page.goto(parceResult.productUrl);
                 _a.sent();
-                return [4 /*yield*/, page.$eval("div.t-container", function (div) {
-                        var resultSet = {};
-                        var tempImgs = new Set();
-                        var a = div.querySelectorAll("div.t-store__prod-popup__slider div.t-slds__imgwrapper ");
-                        a.forEach(function (val) {
-                            tempImgs.add(val.dataset.imgZoomUrl);
-                        });
-                        console.log(tempImgs);
-                        resultSet.imgs = Array.from(tempImgs);
-                        resultSet.prodName = div.querySelector(".js-store-prod-name").textContent;
-                        resultSet.prodDescription = div.querySelector(".js-store-prod-text").innerHTML;
-                        return resultSet;
-                    })];
+                return [4 /*yield*/, page.innerText("div.js-product")];
             case 5:
-                parceResultItem = _a.sent();
+                text = _a.sent();
+                i = 1;
+                _a.label = 6;
+            case 6:
+                if (!(i <= 5)) return [3 /*break*/, 9];
+                return [4 /*yield*/, page.click("div.t-store__load-more-btn-wrap.t-align_center > div > table")];
+            case 7:
+                _a.sent();
+                _a.label = 8;
+            case 8:
+                i++;
+                return [3 /*break*/, 6];
+            case 9:
+                console.log("start1");
+                return [4 /*yield*/, mDelay(2000)];
+            case 10:
+                _a.sent();
+                console.log("start2");
+                console.log("start query");
+                return [4 /*yield*/, page.$$eval("div.js-store-grid-cont div.js-product", function (divs) {
+                        var funcInner = function (div) {
+                            var resultSet = {};
+                            // console.log(div);
+                            // console.log(div.dataset);
+                            resultSet.productUid = div.dataset.productUid;
+                            resultSet.productUrl = div.dataset.productUrl;
+                            resultSet.productImg = div.dataset.productImg;
+                            var newD = div.querySelector(".t-store__card__mark-wrapper .t-store__card__mark");
+                            resultSet.New = !!newD; // либо New либо пусто
+                            resultSet.prodName = div.querySelector(".t-store__card__textwrapper .js-store-prod-name").textContent;
+                            resultSet.prodDescr = div.querySelector(".js-store-prod-descr")
+                                .innerHTML.trim();
+                            resultSet.prodPrice = parseInt(div.querySelector(".js-product-price").textContent);
+                            resultSet.prodSoldOut = !!div.querySelector(".js-store-prod-sold-out");
+                            return resultSet;
+                        };
+                        console.log("Всего найдено : ", divs.length);
+                        var mainResult = [];
+                        var i = 0;
+                        divs.forEach(function (div) {
+                            console.log(++i);
+                            if (i < 100) {
+                                mainResult.push(funcInner(div));
+                            }
+                        });
+                        // const res = funcInner(divs[0]);
+                        return mainResult;
+                    })];
+            case 11:
+                parceResult = _a.sent();
+                //
+                //
+                //
+                console.log(parceResult);
                 console.log("----------------------");
-                console.log(parceResultItem);
+                console.log("----------------------");
+                console.log("----------------------");
+                oneProdArray = [];
+                i = 0;
+                _a.label = 12;
+            case 12:
+                if (!(i < parceResult.length)) return [3 /*break*/, 15];
+                return [4 /*yield*/, parceOnePageItem(page, parceResult[i].productUrl)];
+            case 13:
+                oneGood = _a.sent();
+                oneProdArray.push(oneGood);
+                _a.label = 14;
+            case 14:
+                i++;
+                return [3 /*break*/, 12];
+            case 15:
+                console.log(oneProdArray);
                 return [2 /*return*/];
         }
     });

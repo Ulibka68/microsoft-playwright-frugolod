@@ -22,6 +22,7 @@ async function parceOnePageItem(page: Page, newUrl: string): Promise<OneGood> {
     "div.t-container",
     (div: HTMLDivElement) => {
       const resultSet: any = {};
+      resultSet.URL = newUrl;
 
       const tempImgs = new Set<string>();
 
@@ -56,6 +57,14 @@ export const mainFunc = async () => {
 
   await page.goto("https://frugolod.ru/preprice");
   const text = await page.innerText("div.js-product");
+
+  // Click text=/.*Загрузить еще.*!/
+  for (let i = 1; i <= 5; i++) {
+    await page.click(
+      "div.t-store__load-more-btn-wrap.t-align_center > div > table"
+    );
+  }
+
   console.log("start1");
   await mDelay(2000);
   console.log("start2");
@@ -112,7 +121,7 @@ export const mainFunc = async () => {
   //
   //
   //
-  // console.log(parceResult);
+  console.log(parceResult);
 
   console.log("----------------------");
   console.log("----------------------");
@@ -120,10 +129,7 @@ export const mainFunc = async () => {
   //
   const oneProdArray: Array<OneGood> = [];
   //
-  // parceResult.forEach(async (mainItem) => {
-  //   const oneGood = await parceOnePageItem(page, mainItem.productUrl);
-  //   oneProdArray.push(oneGood);
-  // });
+
   for (let i = 0; i < parceResult.length; i++) {
     const oneGood = await parceOnePageItem(page, parceResult[i].productUrl);
     oneProdArray.push(oneGood);
