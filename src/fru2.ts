@@ -1,75 +1,22 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { chromium } = require("playwright");
+import { Page } from "playwright";
 
-export const mainFunc = async () => {
-  const browser = await chromium.launch({
-    headless: false,
+async function mDelay(msDelay: number) {
+  return new Promise<void>((resolve) => {
+    setTimeout(resolve, msDelay);
   });
-  const context = await browser.newContext();
+}
 
-  // Open new page
-  const page = await context.newPage();
+type OneGood = {
+  imgs: Array<string>;
+  prodName: string;
+  prodDescription: string;
+};
 
-  /*
-  await page.goto("https://frugolod.ru/preprice");
-
-  console.log("start query");
-
-  const parceResult = await page.$$eval(
-    "div.js-product",
-    (divs: Array<HTMLDivElement>) => {
-      const funcInner = (div: HTMLDivElement) => {
-        const resultSet: any = {};
-
-        resultSet.productUid = div.dataset.productUid;
-        resultSet.productUrl = div.dataset.productUrl;
-        resultSet.productImg = div.dataset.productImg;
-
-        // const img: HTMLDivElement = div.querySelector(".js-product-img");
-        // console.log(img.dataset["original"]);
-
-        const newD: HTMLDivElement = div.querySelector(
-          ".t-store__card__mark-wrapper .t-store__card__mark"
-        );
-
-        resultSet.New = !!newD?.textContent; // либо New либо пусто
-
-        const prodName: HTMLDivElement = div.querySelector(
-          ".t-store__card__textwrapper .js-store-prod-name"
-        );
-        resultSet.prodName = prodName.textContent;
-
-        const prodDescr: HTMLDivElement = div.querySelector(
-          ".js-store-prod-descr"
-        );
-        resultSet.prodDescr = (prodDescr.innerHTML as string).trim();
-
-        const prodPrice: HTMLDivElement = div.querySelector(
-          ".js-product-price"
-        );
-        resultSet.prodPrice = parseInt(prodPrice.textContent);
-
-        const prodSoldOut: HTMLDivElement = div.querySelector(
-          ".js-store-prod-sold-out"
-        );
-        resultSet.prodSoldOut = !!prodSoldOut;
-
-        return resultSet;
-      };
-
-      console.log("Всего найдено : ", divs.length);
-      // divs.forEach((div) => {
-      const res = funcInner(divs[0]);
-      return res;
-    }
-  );
-  console.log(parceResult);
-  */
-
-  // await page.goto(parceResult.productUrl);
-  await page.goto(
-    "https://frugolod.ru/testhtml/tproduct/227213205-340652234845-tomati"
-  );
+async function parceOnePageItem(page: Page, newUrl: string): Promise<OneGood> {
+  await page.goto(newUrl);
+  mDelay(1500);
 
   const parceResultItem = await page.$eval(
     "div.t-container",
@@ -95,8 +42,94 @@ export const mainFunc = async () => {
       return resultSet;
     }
   );
+  return parceResultItem;
+}
+
+export const mainFunc = async () => {
+  const browser = await chromium.launch({
+    headless: false,
+  });
+  const context = await browser.newContext();
+
+  // Open new page
+  const page = await context.newPage();
+
+  await page.goto("https://frugolod.ru/preprice");
+  const text = await page.innerText("div.js-product");
+  console.log("start1");
+  await mDelay(2000);
+  console.log("start2");
+
+  console.log("start query");
+
+  const parceResult: Array<any> = await page.$$eval(
+    "div.js-store-grid-cont div.js-product",
+    (divs: Array<HTMLDivElement>) => {
+      const funcInner = (div: HTMLDivElement) => {
+        const resultSet: any = {};
+        // console.log(div);
+        // console.log(div.dataset);
+
+        resultSet.productUid = div.dataset.productUid;
+        resultSet.productUrl = div.dataset.productUrl;
+        resultSet.productImg = div.dataset.productImg;
+
+        const newD: HTMLDivElement = div.querySelector(
+          ".t-store__card__mark-wrapper .t-store__card__mark"
+        );
+
+        resultSet.New = !!newD; // либо New либо пусто
+
+        resultSet.prodName = div.querySelector(
+          ".t-store__card__textwrapper .js-store-prod-name"
+        ).textContent;
+
+        resultSet.prodDescr = (div.querySelector(".js-store-prod-descr")
+          .innerHTML as string).trim();
+
+        resultSet.prodPrice = parseInt(
+          div.querySelector(".js-product-price").textContent
+        );
+
+        resultSet.prodSoldOut = !!div.querySelector(".js-store-prod-sold-out");
+
+        return resultSet;
+      };
+
+      console.log("Всего найдено : ", divs.length);
+      const mainResult = [];
+      let i = 0;
+      divs.forEach((div) => {
+        console.log(++i);
+        if (i < 100) {
+          mainResult.push(funcInner(div));
+        }
+      });
+      // const res = funcInner(divs[0]);
+      return mainResult;
+    }
+  );
+  //
+  //
+  //
+  // console.log(parceResult);
+
   console.log("----------------------");
-  console.log(parceResultItem);
+  console.log("----------------------");
+  console.log("----------------------");
+  //
+  const oneProdArray: Array<OneGood> = [];
+  //
+  // parceResult.forEach(async (mainItem) => {
+  //   const oneGood = await parceOnePageItem(page, mainItem.productUrl);
+  //   oneProdArray.push(oneGood);
+  // });
+  for (let i = 0; i < parceResult.length; i++) {
+    const oneGood = await parceOnePageItem(page, parceResult[i].productUrl);
+    oneProdArray.push(oneGood);
+  }
+
+  console.log(oneProdArray);
 };
 
 mainFunc();
