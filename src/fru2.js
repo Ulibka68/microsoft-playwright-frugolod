@@ -38,7 +38,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 exports.__esModule = true;
 exports.mainFunc = void 0;
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-var chromium = require("playwright").chromium;
+// const { chromium } = require("playwright");
+var playwright_1 = require("playwright");
 function mDelay(msDelay) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -72,6 +73,7 @@ function parceOnePageItem(page, newUrl) {
                         })];
                 case 2:
                     parceResultItem = _a.sent();
+                    parceResultItem.URL = newUrl;
                     return [2 /*return*/, parceResultItem];
             }
         });
@@ -81,7 +83,7 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
     var browser, context, page, text, i, parceResult, oneProdArray, i, oneGood;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4 /*yield*/, chromium.launch({
+            case 0: return [4 /*yield*/, playwright_1.chromium.launch({
                     headless: false
                 })];
             case 1:

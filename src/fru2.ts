@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { chromium } = require("playwright");
+import { chromium } from "playwright";
 import { Page } from "playwright";
 
 async function mDelay(msDelay: number) {
@@ -22,7 +21,6 @@ async function parceOnePageItem(page: Page, newUrl: string): Promise<OneGood> {
     "div.t-container",
     (div: HTMLDivElement) => {
       const resultSet: any = {};
-      resultSet.URL = newUrl;
 
       const tempImgs = new Set<string>();
 
@@ -43,6 +41,7 @@ async function parceOnePageItem(page: Page, newUrl: string): Promise<OneGood> {
       return resultSet;
     }
   );
+  parceResultItem.URL = newUrl;
   return parceResultItem;
 }
 
