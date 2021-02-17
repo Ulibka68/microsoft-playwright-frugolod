@@ -37,9 +37,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 exports.mainFunc = void 0;
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-// const { chromium } = require("playwright");
 var playwright_1 = require("playwright");
+var pathUtils = require("path");
+var fs = require("fs");
+// import { promisify } from "util";
 function mDelay(msDelay) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -80,7 +81,7 @@ function parceOnePageItem(page, newUrl) {
     });
 }
 var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function () {
-    var browser, context, page, text, i, parceResult, oneProdArray, i, oneGood;
+    var browser, context, page, i, parceResult, dataDir, oneProdArray, i, oneGood;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, playwright_1.chromium.launch({
@@ -99,7 +100,7 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                 _a.sent();
                 return [4 /*yield*/, page.innerText("div.js-product")];
             case 5:
-                text = _a.sent();
+                _a.sent();
                 i = 1;
                 _a.label = 6;
             case 6:
@@ -153,6 +154,12 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                 //
                 //
                 console.log(parceResult);
+                dataDir = pathUtils.resolve(__dirname, "..", "data");
+                console.log(dataDir);
+                if (!fs.existsSync(dataDir))
+                    fs.mkdirSync(dataDir);
+                fs.writeFileSync(dataDir + "/main.json", JSON.stringify(parceResult));
+                // return;
                 console.log("----------------------");
                 console.log("----------------------");
                 console.log("----------------------");
@@ -171,6 +178,7 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                 return [3 /*break*/, 12];
             case 15:
                 console.log(oneProdArray);
+                fs.writeFileSync(dataDir + "/child.json", JSON.stringify(oneProdArray));
                 return [2 /*return*/];
         }
     });

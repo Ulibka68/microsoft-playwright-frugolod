@@ -1,5 +1,8 @@
 import { chromium } from "playwright";
 import { Page } from "playwright";
+import * as pathUtils from "path";
+import * as fs from "fs";
+// import { promisify } from "util";
 
 async function mDelay(msDelay: number) {
   return new Promise<void>((resolve) => {
@@ -45,7 +48,7 @@ async function parceOnePageItem(page: Page, newUrl: string): Promise<OneGood> {
   return parceResultItem;
 }
 
-export const mainFunc = async () => {
+export const mainFunc = async (): Promise<void> => {
   const browser = await chromium.launch({
     headless: false,
   });
@@ -55,7 +58,7 @@ export const mainFunc = async () => {
   const page = await context.newPage();
 
   await page.goto("https://frugolod.ru/preprice");
-  const text = await page.innerText("div.js-product");
+  await page.innerText("div.js-product");
 
   // Click text=/.*Загрузить еще.*!/
   for (let i = 1; i <= 5; i++) {
@@ -121,6 +124,13 @@ export const mainFunc = async () => {
   //
   //
   console.log(parceResult);
+  const dataDir = pathUtils.resolve(__dirname, "..", "data");
+  console.log(dataDir);
+
+  if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
+  fs.writeFileSync(dataDir + "/main.json", JSON.stringify(parceResult));
+
+  // return;
 
   console.log("----------------------");
   console.log("----------------------");
@@ -135,6 +145,7 @@ export const mainFunc = async () => {
   }
 
   console.log(oneProdArray);
+  fs.writeFileSync(dataDir + "/child.json", JSON.stringify(oneProdArray));
 };
 
 mainFunc();

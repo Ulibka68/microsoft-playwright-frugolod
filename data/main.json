@@ -1,0 +1,992 @@
+[
+  {
+    "productUid": "791872082676",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-791872082676-klubnika-spelaya-500-g",
+    "productImg": "https://static.tildacdn.com/tild6161-3330-4635-a531-373537393665/248029.jpg",
+    "New": true,
+    "prodName": "Клубника спелая 500 г",
+    "prodDescr": "В упаковке - 0,5 кг (500 гр) <strong>- Греция</strong><strong></strong>",
+    "prodPrice": 450,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "832246980731",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-832246980731-dinya-dino",
+    "productImg": "https://static.tildacdn.com/tild3439-3364-4132-b833-653663663861/WhatsApp_Image_2020-.jpeg",
+    "New": false,
+    "prodName": "Дыня Дино",
+    "prodDescr": "В упаковке - 1 шт (Средний калибр), <strong>Бразилия</strong>",
+    "prodPrice": 450,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "850762135384",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-850762135384-ananas-premium",
+    "productImg": "https://static.tildacdn.com/tild6537-3930-4136-b537-613939313330/10201727139870.jpg",
+    "New": false,
+    "prodName": "Ананас premium",
+    "prodDescr": "Ананас Самолетный (средний вес ± 1,8 - 1,9 кг) <strong>, </strong><strong>Коста-Рика </strong>",
+    "prodPrice": 450,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "519009419351",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-519009419351-vinograd-temnii",
+    "productImg": "https://static.tildacdn.com/tild6434-6138-4038-a532-646439666265/-1073.jpg",
+    "New": true,
+    "prodName": "Виноград темный",
+    "prodDescr": "В упаковке 1 кг ( ±50 гр )<strong> </strong>- <strong>Молдавия</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "563496268730",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-563496268730-papaiya-gold",
+    "productImg": "https://static.tildacdn.com/tild6164-6539-4235-b066-333530333334/379750x0.jpg",
+    "New": true,
+    "prodName": "Папайя голд",
+    "prodDescr": "В упаковке - 1 шт. (Средний калибр), <strong>Бразилия</strong>",
+    "prodPrice": 700,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "215282368058",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-215282368058-granat-uzbekskii",
+    "productImg": "https://static.tildacdn.com/tild3037-3666-4466-a361-303262383139/WhatsApp_Image_2021-.jpeg",
+    "New": false,
+    "prodName": "Гранат узбекский",
+    "prodDescr": "В упаковке - 3<strong> </strong>шт ( ~ 1,2-1,3 кг) - <strong>Узбекистан</strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "957845185013",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-957845185013-apelsin-krasnii",
+    "productImg": "https://static.tildacdn.com/tild3663-3964-4430-a335-646339616264/WhatsApp_Image_2021-.jpeg",
+    "New": false,
+    "prodName": "Апельсин Красный",
+    "prodDescr": "В упаковке ~1 кг ( ± 50гр) - <strong>Сирия</strong><strong></strong>",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "403231604887",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-403231604887-apelsin-navel",
+    "productImg": "https://static.tildacdn.com/tild3734-3866-4962-b065-313732653435/unnamed_5.jpg",
+    "New": false,
+    "prodName": "Апельсин Навел",
+    "prodDescr": "<strong>В упаковке ~ 2 кг ( ± 50гр)</strong> - <strong>Египет</strong>",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "493659770958",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-493659770958-grusha-konferentsiya",
+    "productImg": "https://static.tildacdn.com/tild3665-6631-4132-b238-346132383435/100026650843b1.jpg",
+    "New": false,
+    "prodName": "Груша Конференция",
+    "prodDescr": "В упаковке - 1 кг ( ± 50гр) - <strong>Турция</strong><strong></strong>",
+    "prodPrice": 230,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "583448563471",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-583448563471-mandarin",
+    "productImg": "https://static.tildacdn.com/tild3666-3136-4764-b165-363362396434/XDN89hC298SEmtKbJT1V.jpg",
+    "New": false,
+    "prodName": "Мандарин",
+    "prodDescr": "В упаковке ~1 кг ( ± 50гр) - <strong>Турция</strong><strong></strong>",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "712903029744",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-712903029744-granat-siriiskii",
+    "productImg": "https://static.tildacdn.com/tild3266-6135-4533-b930-396364373431/photo.jpg",
+    "New": false,
+    "prodName": "Гранат сирийский",
+    "prodDescr": "В упаковке - 3 шт ( ~2 кг), <strong>Сирия</strong><strong></strong>",
+    "prodPrice": 500,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "383943775151",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-383943775151-mango-egipet-zamorozhennoe-slaisi-500-gr",
+    "productImg": "https://static.tildacdn.com/tild6635-3332-4231-b036-366534356666/w400h400.jpg",
+    "New": true,
+    "prodName": "Манго Египет замороженное слайсы - 500 гр",
+    "prodDescr": "0,5 кг, вакуумная упаковка<strong>, Египет</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "340652234845",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-340652234845-tomati",
+    "productImg": "https://static.tildacdn.com/tild3364-6535-4564-b033-613562663032/photo.jpg",
+    "New": true,
+    "prodName": "Томаты",
+    "prodDescr": "В упаковке - 1 кг ( ± 50гр) - <strong>Турция</strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "257943128989",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-257943128989-mango-peru-premium",
+    "productImg": "https://static.tildacdn.com/tild6165-6365-4831-a433-656330653465/WhatsApp_Image_2021-.jpeg",
+    "New": true,
+    "prodName": "Манго Перу premium",
+    "prodDescr": "В упаковке - 1 шт (± 500 гр) - <strong>Перу</strong>",
+    "prodPrice": 450,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "866318019832",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-866318019832-mango-tailand",
+    "productImg": "https://static.tildacdn.com/tild3636-6637-4533-b032-383531663466/WhatsApp_Image_2021-.jpeg",
+    "New": true,
+    "prodName": "Манго Тайланд",
+    "prodDescr": "В упаковке - 1 шт (± 500 гр) - <strong>Тайланд</strong>",
+    "prodPrice": 550,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "649834888390",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-649834888390-marakuiya",
+    "productImg": "https://static.tildacdn.com/tild6237-3034-4636-a265-303133313334/photo.jpg",
+    "New": true,
+    "prodName": "Маракуйя",
+    "prodDescr": "В упаковке - 3 шт ( ± 0,25 кг) - <strong>Вьетнам</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "732272346300",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-732272346300-hurma-ispaniya",
+    "productImg": "https://static.tildacdn.com/tild6363-6165-4262-b165-326138303532/_.jpg",
+    "New": false,
+    "prodName": "Хурма Испания",
+    "prodDescr": "В упаковке - 3 шт ( ± 900гр) - <strong>Испания</strong>",
+    "prodPrice": 450,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "920893555509",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-920893555509-yabloki-malinka",
+    "productImg": "https://static.tildacdn.com/tild3465-3766-4261-a334-656139306263/photo.png",
+    "New": false,
+    "prodName": "Яблоки Малинка",
+    "prodDescr": "В упаковке - 2кг ( ± 50гр) - <strong>Импорт</strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "678732689426",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-678732689426-yabloki-red-chif",
+    "productImg": "https://static.tildacdn.com/tild6438-3930-4866-a538-613336343235/_.jpeg",
+    "New": false,
+    "prodName": "Яблоки Ред Чиф",
+    "prodDescr": "В упаковке - 2кг ( ± 50гр) - <strong>Импорт</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "254993247166",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-254993247166-yabloki-fudzhi",
+    "productImg": "https://static.tildacdn.com/tild6638-3633-4961-b234-303130303464/photo.jpg",
+    "New": false,
+    "prodName": "Яблоки Фуджи",
+    "prodDescr": "В упаковке - <strong>2 кг</strong> ( ± 50гр) - <strong>Россия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "541353978337",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-541353978337-limon-uzbekskii",
+    "productImg": "https://static.tildacdn.com/tild3964-3533-4434-b730-343435613133/photo.jpg",
+    "New": false,
+    "prodName": "Лимон узбекский",
+    "prodDescr": "В упаковке 1шт ( ±140 гр )<strong></strong> - <strong>Узбекистан</strong>",
+    "prodPrice": 50,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "173412532071",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-173412532071-tomati-cherri",
+    "productImg": "https://static.tildacdn.com/tild3536-6431-4337-a236-626232313163/WhatsApp_Image_2021-.jpeg",
+    "New": false,
+    "prodName": "Томаты Черри",
+    "prodDescr": "В упаковке 1 кг ( ±50 гр )<strong></strong> - <strong>Турция</strong>",
+    "prodPrice": 400,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "719016453221",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-719016453221-ogurtsi-bakinskie",
+    "productImg": "https://static.tildacdn.com/tild3533-3561-4234-a362-653536356164/WhatsApp_Image_2020-.jpeg",
+    "New": false,
+    "prodName": "Огурцы бакинские",
+    "prodDescr": "В упаковке - 1 кг ( ± 50гр) - <strong>Россия</strong>",
+    "prodPrice": 600,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "824838936749",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-824838936749-tomati-uzbekskie",
+    "productImg": "https://static.tildacdn.com/tild6566-6465-4338-b638-653932303638/_.png",
+    "New": false,
+    "prodName": "Томаты узбекские",
+    "prodDescr": "В упаковке 1 кг ( ±50 гр )<strong></strong> - <strong>Узбекистан</strong>",
+    "prodPrice": 650,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "733112424058",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-733112424058-baklazhani",
+    "productImg": "https://static.tildacdn.com/tild3832-6638-4363-b737-313537643061/photo_2.jpeg",
+    "New": false,
+    "prodName": "Баклажаны",
+    "prodDescr": "В упаковке - 1 кг ( ± 50гр) <b>- <strong data-redactor-tag=\"strong\"></strong><strong>Россия</strong></b>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "740010920838",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-740010920838-kabachki",
+    "productImg": "https://static.tildacdn.com/tild3439-3734-4134-a333-336566616366/photo_10.jpeg",
+    "New": false,
+    "prodName": "Кабачки",
+    "prodDescr": "В упаковке - 1 кг ( ± 50гр) - <strong>Россия</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "529143005621",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-529143005621-perets-krasnii-kapiya",
+    "productImg": "https://static.tildacdn.com/tild3532-6564-4038-a562-653733313735/photo.jpg",
+    "New": false,
+    "prodName": "Перец красный Капия",
+    "prodDescr": "В упаковке - 1 кг (± 50 кг), <strong>Турция (не острый)</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "648888473247",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-648888473247-chesnok-molodoi",
+    "productImg": "https://static.tildacdn.com/tild3363-3530-4636-a331-353062376235/photo_4.jpeg",
+    "New": false,
+    "prodName": "Чеснок молодой",
+    "prodDescr": "В упаковке - 1 шт вес ~120гр ( ±20 гр ) - <strong>Россия</strong>",
+    "prodPrice": 80,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "687972379586",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-687972379586-kinza-svezhaya",
+    "productImg": "https://static.tildacdn.com/tild3864-6137-4566-b661-376162663639/photo_5.jpeg",
+    "New": false,
+    "prodName": "Кинза свежая",
+    "prodDescr": "В упаковке - 100 гр - <strong>Россия</strong>",
+    "prodPrice": 120,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "722232810362",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-722232810362-luk-zelyonii-molodoi",
+    "productImg": "https://static.tildacdn.com/tild3264-6137-4537-a633-653938363435/__7.jpeg",
+    "New": false,
+    "prodName": "Лук зелёный молодой",
+    "prodDescr": "В упаковке - 100 гр - <strong>Россия</strong>",
+    "prodPrice": 90,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "830112992806",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-830112992806-ukrop-svezhii",
+    "productImg": "https://static.tildacdn.com/tild6238-3537-4065-b536-643935353139/photo_7.jpeg",
+    "New": false,
+    "prodName": "Укроп свежий",
+    "prodDescr": "В упаковке - 100 гр - <strong>Россия</strong>",
+    "prodPrice": 70,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "356338213239",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-356338213239-petrushka-svezhaya",
+    "productImg": "https://static.tildacdn.com/tild3063-6434-4365-b164-623835646132/photo_6.jpeg",
+    "New": false,
+    "prodName": "Петрушка свежая",
+    "prodDescr": "В упаковке - 100 гр - <strong>Россия</strong>",
+    "prodPrice": 70,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "581220078861",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-581220078861-rukkola-svezhaya",
+    "productImg": "https://static.tildacdn.com/tild3161-3765-4131-b331-323463353932/rukola-420x458.jpg",
+    "New": false,
+    "prodName": "Руккола свежая",
+    "prodDescr": "В упаковке - 200 гр - <strong>Россия</strong>",
+    "prodPrice": 400,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "737159019971",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-737159019971-selderei-stebli",
+    "productImg": "https://static.tildacdn.com/tild6361-6536-4230-b962-316532626432/07a5735e-ebe0-11e3-a.jpeg",
+    "New": false,
+    "prodName": "Сельдерей стебли",
+    "prodDescr": "В упаковке - 1 шт 400 гр<strong></strong>",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "918592888261",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-918592888261-schavel",
+    "productImg": "https://static.tildacdn.com/tild6437-6464-4866-b563-643566633961/photo.jpg",
+    "New": false,
+    "prodName": "Щавель",
+    "prodDescr": "В упаковке - 300 гр - <strong>Россия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "687970692911",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-687970692911-shpinat",
+    "productImg": "https://static.tildacdn.com/tild3836-3832-4239-b965-626261663937/shpinat-molodoj.jpg",
+    "New": false,
+    "prodName": "Шпинат",
+    "prodDescr": "В упаковке - 300 гр - <strong>Россия</strong>",
+    "prodPrice": 400,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "798752971961",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-798752971961-timyan",
+    "productImg": "https://static.tildacdn.com/tild6262-3531-4137-b363-363135623436/photo.jpg",
+    "New": false,
+    "prodName": "Тимьян",
+    "prodDescr": "В упаковке - 50 гр - <strong>Израиль</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "404207927810",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-404207927810-rozmarin",
+    "productImg": "https://static.tildacdn.com/tild3463-3232-4161-a439-333936623835/photo.jpg",
+    "New": false,
+    "prodName": "Розмарин",
+    "prodDescr": "В упаковке - 50 гр - <strong>Израиль</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "210303917103",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-210303917103-morkov",
+    "productImg": "https://static.tildacdn.com/tild6434-3239-4364-a236-636139636166/_.jpg",
+    "New": false,
+    "prodName": "Морковь",
+    "prodDescr": "В упаковке - ± 450 г - <strong>Россия</strong>",
+    "prodPrice": 130,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "549669046043",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-549669046043-redis",
+    "productImg": "https://static.tildacdn.com/tild3539-6632-4466-a133-366463383364/_.jpg",
+    "New": false,
+    "prodName": "Редис",
+    "prodDescr": "В упаковке - ± 450 г - <strong>Россия</strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "473160249010",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-473160249010-luk-porei",
+    "productImg": "https://static.tildacdn.com/tild6165-6161-4263-a137-656361656338/_.jpg",
+    "New": false,
+    "prodName": "Лук Порей",
+    "prodDescr": "В упаковке - 1 шт (Крупный +- 400 грамм) - <strong>Россия</strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "148114634594",
+    "productUrl": "https://frugolod.ru/tproduct/212485748-148114634594-bazilik-fioletovii",
+    "productImg": "https://static.tildacdn.com/tild6133-3734-4665-b362-616361663063/photo_8.jpeg",
+    "New": false,
+    "prodName": "Базилик фиолетовый",
+    "prodDescr": "В упаковке - 100 гр - <strong>Россия</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "385234902401",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-385234902401-chai-rozhdestvenskii-puding",
+    "productImg": "https://static.tildacdn.com/tild6633-3430-4230-b030-303562653937/11.jpeg",
+    "New": false,
+    "prodName": "Чай Рождественский Пудинг",
+    "prodDescr": "В бутылке - 100 гр, Стеклянная подарочная бутылка<strong></strong>",
+    "prodPrice": 600,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "235173893464",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-235173893464-chai-dardzhiling",
+    "productImg": "https://static.tildacdn.com/tild3461-3835-4131-b834-376335366662/__1.jpeg",
+    "New": false,
+    "prodName": "Чай Дарджилинг",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "876014650922",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-876014650922-chai-erl-grei-s-bergamotom",
+    "productImg": "https://static.tildacdn.com/tild3663-6337-4932-b934-353434336566/photo.jpeg",
+    "New": false,
+    "prodName": "Чай Эрл Грей - с бергамотом",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 100,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "833937198834",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-833937198834-chai-molochnii-ulun",
+    "productImg": "https://static.tildacdn.com/tild6634-3634-4566-a332-313636323430/_.jpeg",
+    "New": false,
+    "prodName": "Чай Молочный улун",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "834301966607",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-834301966607-chai-mangovii-ulun",
+    "productImg": "https://static.tildacdn.com/tild6664-3961-4333-b362-636632643639/_.jpeg",
+    "New": false,
+    "prodName": "Чай Манговый улун",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "243356045955",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-243356045955-chai-s-lesnimi-yagodami-taezhnii-sbor",
+    "productImg": "https://static.tildacdn.com/tild3561-3863-4433-b330-653939623838/_.jpeg",
+    "New": false,
+    "prodName": "Чай с лесными ягодами - Таежный сбор",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 100,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "632670701796",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-632670701796-chai-zelenii-s-zhasminom",
+    "productImg": "https://static.tildacdn.com/tild3137-3337-4837-b166-383363373961/_.jpeg",
+    "New": false,
+    "prodName": "Чай зеленый - с жасмином",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 100,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "373459399969",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-373459399969-travyanoi-chai-s-listom-malini-i-myatoi",
+    "productImg": "https://static.tildacdn.com/tild3366-3137-4461-b535-653766346636/__-__.jpeg",
+    "New": false,
+    "prodName": "Травяной чай с листом малины и мятой",
+    "prodDescr": "В упаковке - 50 гр - <strong>Китай</strong>",
+    "prodPrice": 100,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "323006375495",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-323006375495-kofe-v-zernah-illy-gvatemala",
+    "productImg": "https://static.tildacdn.com/tild3239-6132-4661-b033-613632323136/__.jpeg",
+    "New": false,
+    "prodName": "Кофе в зернах Illy Гватемала",
+    "prodDescr": "В банке 250 гр, <strong>Италия</strong>",
+    "prodPrice": 750,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "859943414846",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-859943414846-kofe-v-zernah-lavazza-qualita-oro",
+    "productImg": "https://static.tildacdn.com/tild3231-6337-4361-a561-633334323164/_1.jpeg",
+    "New": false,
+    "prodName": "Кофе в зернах LAVAZZA «Qualita Oro»",
+    "prodDescr": "В упаковке - 250 гр, <strong>Италия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "337478244183",
+    "productUrl": "https://frugolod.ru/tproduct/212488604-337478244183-kofe-molotii-lavazza-crema-e-gusto",
+    "productImg": "https://static.tildacdn.com/tild3839-3265-4534-a565-353431383131/_2.jpeg",
+    "New": false,
+    "prodName": "Кофе молотый Lavazza Crema e Gusto",
+    "prodDescr": "В упаковке - 250 гр, <strong>Италия</strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "572827243917",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-572827243917-sir-brie",
+    "productImg": "https://static.tildacdn.com/tild3666-3766-4161-b430-633238343066/007361-syr-bri-50-tm.jpg",
+    "New": false,
+    "prodName": "Сыр Brie",
+    "prodDescr": "В упаковке - 125 г, сыр мягкий с плесенью <strong></strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "990451840874",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-990451840874-sir-cambozola-125-g",
+    "productImg": "https://static.tildacdn.com/tild3161-3862-4263-a237-613733626530/photo.jpeg",
+    "New": false,
+    "prodName": "Сыр Cambozola 125 г",
+    "prodDescr": "Сыр мягкий с плесенью - <strong>Мягкий</strong>",
+    "prodPrice": 380,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "855924862892",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-855924862892-sir-camembert",
+    "productImg": "https://static.tildacdn.com/tild3736-6134-4536-b338-376535623961/007362-syr-kamamber-.jpg",
+    "New": false,
+    "prodName": "Сыр Camembert",
+    "prodDescr": "В упаковке - 125 г, сыр мягкий с плесенью<strong></strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "311719448741",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-311719448741-salyami-toskano",
+    "productImg": "https://static.tildacdn.com/tild3937-6166-4965-b333-343764343630/photo.jpeg",
+    "New": false,
+    "prodName": "Салями Тоскано",
+    "prodDescr": "В упаковке - 250 г<strong></strong>",
+    "prodPrice": 650,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "586010249313",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-586010249313-sir-galbani-motsarella",
+    "productImg": "https://static.tildacdn.com/tild3232-6538-4464-a131-386134343064/photo.jpg",
+    "New": false,
+    "prodName": "Сыр Galbani Моцарелла",
+    "prodDescr": "<strong>В упаковке</strong> - 125 грамм , <strong>Россия</strong><strong></strong>",
+    "prodPrice": 115,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "202869182278",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-202869182278-sir-maasdam",
+    "productImg": "https://static.tildacdn.com/tild6461-3861-4333-b839-383637356166/50166144.jpg",
+    "New": false,
+    "prodName": "Сыр Маасдам",
+    "prodDescr": "В упаковке - 500 грамм - <strong>Полутвердый</strong><strong></strong>",
+    "prodPrice": 850,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "881389357247",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-881389357247-sir-grana-padano",
+    "productImg": "https://static.tildacdn.com/tild6336-3739-4461-b235-646238373037/Grana-Padano2_cr.jpg",
+    "New": false,
+    "prodName": "Сыр Грана Падано",
+    "prodDescr": "В упаковке - 500 грамм, <strong>Твердый</strong>",
+    "prodPrice": 1,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "373548945405",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-373548945405-sir-kozii-frico",
+    "productImg": "https://static.tildacdn.com/tild6332-3262-4532-b331-303233303136/_1.jpg",
+    "New": false,
+    "prodName": "Сыр Козий Frico",
+    "prodDescr": "В упаковке - 500 грамм, <strong>Твердый</strong>",
+    "prodPrice": 1,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "461796270749",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-461796270749-sir-s-chernim-tryufelem-tartyufo",
+    "productImg": "https://static.tildacdn.com/tild3561-3933-4335-b836-656336613335/1.jpg",
+    "New": false,
+    "prodName": "Сыр с черным трюфелем - Тартюфо",
+    "prodDescr": "В упаковке - 300 грамм, <strong>Полутвердый</strong>",
+    "prodPrice": 1,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "452763798401",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-452763798401-sir-prima-donna-forte",
+    "productImg": "https://static.tildacdn.com/tild3830-3065-4066-b230-313631366665/1.jpeg",
+    "New": false,
+    "prodName": "Сыр Prima Donna forte",
+    "prodDescr": "В упаковке - 500 грамм, <strong></strong><strong>Твердый</strong>",
+    "prodPrice": 1,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "625141188061",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-625141188061-sir-chedder-arla-tolkuton",
+    "productImg": "https://static.tildacdn.com/tild3663-3634-4633-b830-323032623837/Syr-Arla-Tolkuton-Ch.jpg",
+    "New": false,
+    "prodName": "Сыр Чеддер Arla Tolkuton",
+    "prodDescr": "В упаковке - 500 грамм, <strong></strong><strong>Плутвердый</strong>",
+    "prodPrice": 900,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "169030331391",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-169030331391-sir-halumi",
+    "productImg": "https://static.tildacdn.com/tild3462-3137-4537-b837-356239653936/_.jpeg",
+    "New": false,
+    "prodName": "Сыр Халуми",
+    "prodDescr": "В упаковке ± 250 гр, <strong>Россия</strong>",
+    "prodPrice": 550,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "664861611581",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-664861611581-prosciutto-crudo",
+    "productImg": "https://static.tildacdn.com/tild3064-3761-4662-b136-346466363361/WhatsApp_Image_2020-.jpeg",
+    "New": false,
+    "prodName": "Prosciutto Crudo",
+    "prodDescr": "В упаковке - ± 500 грамм, <strong>Товар весовой!</strong>",
+    "prodPrice": 1,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "600045726504",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-600045726504-kuritsa-fermerskaya",
+    "productImg": "https://static.tildacdn.com/tild3135-6538-4362-b235-393265393032/WhatsApp_Image_2020-.jpeg",
+    "New": false,
+    "prodName": "Курица фермерская",
+    "prodDescr": "В упаковке - <strong>± 2 кг</strong>. Кабардино-Балкария<span class=\"redactor-invisible-space\">. <strong>Товар весовой! <strong data-redactor-tag=\"strong\">Цена 320 руб за 1 кг!</strong></strong></span>",
+    "prodPrice": 320,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "365384477811",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-365384477811-sir-parmigiano-reggiano-025-kg",
+    "productImg": "https://static.tildacdn.com/tild6262-3233-4462-a338-363864366231/WhatsApp_Image_2021-.jpeg",
+    "New": false,
+    "prodName": "Сыр Parmigiano Reggiano – 0,25 кг",
+    "prodDescr": "В упаковке - ± 250 грамм, выдержка 24 месяца - <strong>Твердый</strong>",
+    "prodPrice": 950,
+    "prodSoldOut": true
+  },
+  {
+    "productUid": "471500170761",
+    "productUrl": "https://frugolod.ru/tproduct/170157000-471500170761-file-tuntsa-sm",
+    "productImg": "https://static.tildacdn.com/tild3635-3038-4562-b063-633835656530/photo.jpeg",
+    "New": false,
+    "prodName": "Филе Тунца с/м",
+    "prodDescr": "В вакууме ± 0,5 кг., <strong>Азия (Свежемороженый)</strong>",
+    "prodPrice": 550,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "574999026601",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-574999026601-vzbitie-slivki-president-20",
+    "productImg": "https://static.tildacdn.com/tild3366-3736-4261-b532-643930323438/WhatsApp_Image_2021-.jpeg",
+    "New": true,
+    "prodName": "Взбитые сливки President 20%",
+    "prodDescr": "В упаковке - 1 шт 250 мл",
+    "prodPrice": 230,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "332244600919",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-332244600919-artishok-v-masle",
+    "productImg": "https://static.tildacdn.com/tild3563-3931-4530-a564-656561663331/owsxg7y31571656847.jpg",
+    "New": false,
+    "prodName": "Артишок в масле",
+    "prodDescr": "Упаковка 580 мл - <strong>Италия</strong>",
+    "prodPrice": 600,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "102390223352",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-102390223352-anchousi-v-masle",
+    "productImg": "https://static.tildacdn.com/tild3936-3430-4363-b963-313533373864/photo.jpeg",
+    "New": false,
+    "prodName": "Анчоусы в масле",
+    "prodDescr": "Банка - 157 гр , <strong>Италия</strong>",
+    "prodPrice": 325,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "789126141861",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-789126141861-sous-balzamicheskii-temnii",
+    "productImg": "https://static.tildacdn.com/tild6138-3030-4335-b739-323538633939/_.jpg",
+    "New": false,
+    "prodName": "Соус Бальзамический темный",
+    "prodDescr": "Prezioso Esperienza Соус бальзамический темный оригинальный, 500 мл , <strong>Италия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "376281816134",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-376281816134-ketchup-tomatnii-mutti",
+    "productImg": "https://static.tildacdn.com/tild3264-6632-4734-a130-363833313661/photo.jpg",
+    "New": false,
+    "prodName": "Кетчуп томатный Mutti",
+    "prodDescr": "В бутылке 340 мл - <strong>Италия</strong><strong></strong>",
+    "prodPrice": 180,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "744495355985",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-744495355985-gorchitsa-dizhonskaya-chatel-mustard",
+    "productImg": "https://static.tildacdn.com/tild6634-3366-4634-b932-356333303437/photo.jpg",
+    "New": false,
+    "prodName": "Горчица дижонская CHATEL Mustard",
+    "prodDescr": "В банке - 370 грамм, <strong>Франция</strong> <strong></strong><strong></strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "681868119591",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-681868119591-gorchitsa-iz-tselnih-zeren-chatel-mustar",
+    "productImg": "https://static.tildacdn.com/tild3030-6631-4635-b561-326234376161/gorchitsa_chatel_iz_.jpg",
+    "New": false,
+    "prodName": "Горчица из целных зерен CHATEL Mustard",
+    "prodDescr": "В банке - 370 грамм, <strong>Франция</strong> <strong></strong><strong></strong>",
+    "prodPrice": 210,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "973315484111",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-973315484111-sol-egeiskogo-morya-melkii-pomol",
+    "productImg": "https://static.tildacdn.com/tild6166-3136-4239-b135-666136363733/photo.jpg",
+    "New": false,
+    "prodName": "Соль Эгейского моря (мелкий помол)",
+    "prodDescr": "В упаковке 1 кг - (мелкий помол), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 180,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "522498559426",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-522498559426-sol-egeiskogo-morya-krupnii-pomol",
+    "productImg": "https://static.tildacdn.com/tild6166-3136-4239-b135-666136363733/photo.jpg",
+    "New": false,
+    "prodName": "Соль Эгейского моря (крупный помол)",
+    "prodDescr": "В упаковке 1 кг - (крупный помол), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 180,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "452715725586",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-452715725586-krasnii-perets-kardola-farshirovannii-si",
+    "productImg": "https://static.tildacdn.com/tild6634-3330-4531-b839-323332633831/_.jpg",
+    "New": false,
+    "prodName": "Красный перец \"Кардола\" фаршированный сыром",
+    "prodDescr": "В банке - 290 гр - (Чистый вес - 190 гр), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 250,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "573974521181",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-573974521181-maslini-farshirovanie-sirom",
+    "productImg": "https://static.tildacdn.com/tild6631-6130-4534-b939-313465336634/__.jpg",
+    "New": true,
+    "prodName": "Маслины фаршированые сыром",
+    "prodDescr": "В банке - 290 гр - (Чистый вес - 190 гр), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 280,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "483558947753",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-483558947753-olivki-farshirovannie-sirom",
+    "productImg": "https://static.tildacdn.com/tild6238-6132-4066-b366-656437383738/__1.jpg",
+    "New": false,
+    "prodName": "Оливки фаршированные сыром",
+    "prodDescr": "В банке - 290 гр - (Чистый вес - 190 гр), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 280,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "755756535002",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-755756535002-gribi-farshirovannie-sirom",
+    "productImg": "https://static.tildacdn.com/tild3833-6138-4635-b464-393563613063/__.jpg",
+    "New": false,
+    "prodName": "Грибы фаршированные сыром",
+    "prodDescr": "В банке - 290 гр - (Чистый вес - 190 гр), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "999742327657",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-999742327657-gribi-na-grile",
+    "productImg": "https://static.tildacdn.com/tild6636-3265-4662-a332-323333653234/__.jpg",
+    "New": false,
+    "prodName": "Грибы на Гриле",
+    "prodDescr": "В банке - 290 гр - (Чистый вес - 190 гр), <strong>Турция</strong><strong></strong>",
+    "prodPrice": 300,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "681067265600",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-681067265600-maslo-olivkovoe-primo-evcutrera-dop",
+    "productImg": "https://static.tildacdn.com/tild3335-3332-4135-a234-613236633838/Untitled_9.png",
+    "New": false,
+    "prodName": "Масло оливковое Primo e.v.cutrera d.o.p.",
+    "prodDescr": "В упаковке - 100 мл, первый холодный отжим - <strong>Италия</strong>",
+    "prodPrice": 400,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "458108324780",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-458108324780-olivkovoe-maslo-luglio-extra-vergine-s-t",
+    "productImg": "https://static.tildacdn.com/tild6139-3431-4537-b634-666566363734/Olivkovoe_maslo_Lugl.jpeg",
+    "New": false,
+    "prodName": "Оливковое масло LugliO Extra Vergine с трюфелем",
+    "prodDescr": "В упаковке - 250 мл, первый холодный отжим - <strong>Италия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "529775481026",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-529775481026-olivkovoe-maslo-luglio-extra-vergine-s-b",
+    "productImg": "https://static.tildacdn.com/tild3662-3261-4466-a638-653432643231/39ce69c435004c4e9365.jpg",
+    "New": false,
+    "prodName": "Оливковое масло LugliO Extra Vergine с белым трюфелем",
+    "prodDescr": "Бутылка - 250 мл. <strong>Италия</strong><strong></strong>",
+    "prodPrice": 400,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "521458634394",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-521458634394-maslo-olivkovoe-dlya-zharki-luglio",
+    "productImg": "https://static.tildacdn.com/tild6663-6231-4436-b437-343262353439/__.jpeg",
+    "New": false,
+    "prodName": "Масло оливковое для жарки LugliO",
+    "prodDescr": "В упаковке - 1 литр, рафинированное оливковое масло - <strong>Италия</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "365206733096",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-365206733096-maslo-olivkovoe-extra-vergine-luglio",
+    "productImg": "https://static.tildacdn.com/tild3630-6231-4466-b866-373637366133/__.jpeg",
+    "New": false,
+    "prodName": "Масло оливковое Extra Vergine LugliO",
+    "prodDescr": "В упаковке 1 литр - <strong></strong>нерафинированное масло первого отжима <strong>Италия</strong>",
+    "prodPrice": 550,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "626016666048",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-626016666048-olivki-kalamata-s-kostochkoi",
+    "productImg": "https://static.tildacdn.com/tild3163-3966-4965-b361-323866323237/__.jpg",
+    "New": false,
+    "prodName": "Оливки Каламата с косточкой",
+    "prodDescr": "В упаковке 350/185 Нетто - <strong>Греция</strong><strong></strong><strong></strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "420561479395",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-420561479395-olivki-chernie-kalamata-bez-kostochki",
+    "productImg": "https://static.tildacdn.com/tild6632-3533-4564-b333-373035333566/__.jpeg",
+    "New": false,
+    "prodName": "Оливки черные Каламата - без косточки",
+    "prodDescr": "В упаковке 350/185 Нетто - <strong>Греция</strong>",
+    "prodPrice": 350,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "315310109883",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-315310109883-olivki-zelenie-s-kostochkoi-super-mammut",
+    "productImg": "https://static.tildacdn.com/tild3266-3564-4330-b963-323162363062/__.jpeg",
+    "New": false,
+    "prodName": "Оливки зеленые с косточкой Супер Маммут",
+    "prodDescr": "В упаковке 820 гр - <strong>Греция</strong>",
+    "prodPrice": 390,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "280513210438",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-280513210438-olivki-chernie-s-kostochkoi-super-mammut",
+    "productImg": "https://static.tildacdn.com/tild6639-3233-4430-a337-666364393539/__.jpeg",
+    "New": false,
+    "prodName": "Оливки черные с косточкой Супер Маммут",
+    "prodDescr": "В упаковке 820 гр - <strong>Греция</strong>",
+    "prodPrice": 390,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "529721149946",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-529721149946-nektar-miks-marakuiya-mango-guava-330-ml",
+    "productImg": "https://static.tildacdn.com/tild3737-6138-4533-b137-363632366266/_.jpeg",
+    "New": false,
+    "prodName": "Нектар Микс (Маракуйя, Манго, Гуава) - 330 мл",
+    "prodDescr": "В упаковке - 3 шт по 330 мл (3 банки - 200 руб)",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "785894281833",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-785894281833-nektar-guava-guava-juice-330-ml",
+    "productImg": "https://static.tildacdn.com/tild3737-6533-4866-a632-633766386632/_.jpeg",
+    "New": false,
+    "prodName": "Нектар Гуава Guava Juice - 330 мл",
+    "prodDescr": "В упаковке - 3 шт по 330 мл (3 банки - 200 руб)",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "770393991108",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-770393991108-nektar-marakuiya-passion-fruit-330-ml",
+    "productImg": "https://static.tildacdn.com/tild3238-6236-4538-a161-306333336136/_.jpeg",
+    "New": false,
+    "prodName": "Нектар Маракуйя Passion Fruit - 330 мл",
+    "prodDescr": "В упаковке - 3 шт по 330 мл (3 банки - 200 руб)",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "634638646458",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-634638646458-nektar-mango-mango-juice-330-ml",
+    "productImg": "https://static.tildacdn.com/tild3631-3963-4835-b633-333032306638/_.jpeg",
+    "New": false,
+    "prodName": "Нектар Манго Mango Juice - 330 мл",
+    "prodDescr": "В упаковке - 3 шт по 330 мл (3 банки - 200 руб)",
+    "prodPrice": 200,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "289237197371",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-289237197371-kokosovoe-moloko-aroy-d",
+    "productImg": "https://static.tildacdn.com/tild3862-3461-4762-a562-666563663630/photo.jpg",
+    "New": false,
+    "prodName": "Кокосовое молоко aroy-d",
+    "prodDescr": "Упаковка - 1 шт 400 мл , <strong>Таиланд</strong><strong></strong>",
+    "prodPrice": 150,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "383928220421",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-383928220421-kokosovoe-maslo-aroy-d",
+    "productImg": "https://static.tildacdn.com/tild3031-6564-4264-b463-303733656362/maslokokosovoeextrav.jpg",
+    "New": false,
+    "prodName": "Кокосовое масло aroy-d",
+    "prodDescr": "Упаковка - 1 шт 450 мл , <strong>Таиланд</strong><strong></strong>",
+    "prodPrice": 500,
+    "prodSoldOut": false
+  },
+  {
+    "productUid": "135277555296",
+    "productUrl": "https://frugolod.ru/tproduct/212571356-135277555296-shokoladnoe-drazhe-assorti",
+    "productImg": "https://static.tildacdn.com/tild6633-3332-4163-b032-323931366465/photo.jpeg",
+    "New": false,
+    "prodName": "Шоколадное драже (Ассорти)",
+    "prodDescr": "В упаковке - 230 грамм, <strong>Турция</strong>",
+    "prodPrice": 280,
+    "prodSoldOut": false
+  }
+]
