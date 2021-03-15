@@ -123,9 +123,10 @@ export const mainFunc = async (): Promise<void> => {
   //
   //
   //
-  console.log(parceResult);
+  // console.log(parceResult);
   const dataDir = pathUtils.resolve(__dirname, "..", "data");
   console.log(dataDir);
+  console.log("Всего загружено : ", parceResult.length);
 
   if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir);
   fs.writeFileSync(dataDir + "/main.json", JSON.stringify(parceResult));
@@ -144,7 +145,7 @@ export const mainFunc = async (): Promise<void> => {
     oneProdArray.push(oneGood);
   }
 
-  console.log(oneProdArray);
+  // console.log(oneProdArray);
   fs.writeFileSync(dataDir + "/child.json", JSON.stringify(oneProdArray));
 };
 

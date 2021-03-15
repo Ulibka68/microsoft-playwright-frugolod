@@ -14,9 +14,12 @@ from
      union select 5 union select 6 union select 7 union select 8 union select 9 ) t4
 order by number;
 
+select * from numbers;
+
 # **********************************************
 # распаковка main
 
+truncate table main_docs;
 insert into main_docs(num, doc_main)
 select
     n.num,
@@ -33,7 +36,7 @@ select     @P := concat('$[', num , ']') from  numbers ;
 # **********************************************
 # распаковка children
 
-
+truncate table child_docs;
 insert into child_docs(num, doc_child)
 select
     n.num,

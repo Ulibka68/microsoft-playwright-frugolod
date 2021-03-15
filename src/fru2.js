@@ -150,10 +150,6 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                     })];
             case 11:
                 parceResult = _a.sent();
-                //
-                //
-                //
-                console.log(parceResult);
                 dataDir = pathUtils.resolve(__dirname, "..", "data");
                 console.log(dataDir);
                 if (!fs.existsSync(dataDir))
@@ -177,7 +173,7 @@ var mainFunc = function () { return __awaiter(void 0, void 0, void 0, function (
                 i++;
                 return [3 /*break*/, 12];
             case 15:
-                console.log(oneProdArray);
+                // console.log(oneProdArray);
                 fs.writeFileSync(dataDir + "/child.json", JSON.stringify(oneProdArray));
                 return [2 /*return*/];
         }
